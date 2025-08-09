@@ -1,7 +1,4 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
 export default defineConfig({
+  base: '/Navigator-UI-Prototype-1.0/',
   plugins: [react()],
-  base: "/outpatient-navigator/",
 })
